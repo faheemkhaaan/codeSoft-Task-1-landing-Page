@@ -1,23 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
+
 <body>
-    <p>Hello World</p>
+    <header>
+
+        <div class="logo">
+            <h3><i class="fa fa-book"></i>LANDING PAGE</h3>
+        </div>
+        <ul class="navBar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Page</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#" id="buyBtn">Buy Now</a></li>
+            <i class="fa fa-multiply" id="close_navbarBTn"></i>
+        </ul>
+        <div class="search">
+            <input type="search" name="" id="searchbtn" placeholder="Search">
+            <label for="searchbtn"> <i class="fa fa-search"></i></label>
+        </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div>
+                <h2>WE ARE CREATIVE</h2>
+                <h1>CREATIVE DIGITAL AGENCY</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos cupiditate tenetur fuga?</p>
+                <div class="hero_btn">
+                    <button>READ MORE</button>
+                    <button>REQUEST A CONSULT</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="useFull_links">
+            <div>
+                <h2><i class="fa fa-bell"></i>LAUNCH BUSINESS</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias unde esse iure?</p>
+            </div>
+            <div>
+                <h2><i class="fa fa-headphones"></i>ONLINE SUPPORT TEAM</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus temporibus placeat odio?</p>
+            </div>
+            <div>
+                <h2> <i class="fa fa-clock"></i>TIME MANAGEMENT</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aliquam cupiditate necessitatibus?
+                </p>
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="about_us">
+                <div class="about-us-content">
+                    <h2>ABOUT US</h2>
+                    <h3>15 years, we passionate about achieving better result for our clients</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores qui voluptatem ea velit soluta,
+                        suscipit doloremque natus nihil magni exercitationem reiciendis aspernatur sint mollitia, doloribus
+                        itaque repellat, aperiam libero? Odio. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate molestiae esse earum possimus atque sapiente molestias quas ducimus sequi debitis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil facilis quisquam dolorum in sint dolorem quaerat fugiat veniam, ipsa sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita maxime consequatur quis perspiciatis quas ut aspernatur itaque aperiam iure. Ex?
+                    </p>
+                    <button>Learn More</button>
+                </div>
+                <div class="aboutUs-image">
+                    <img src="./images/Smiling-Business-Man-Standing-PNG-Photos.png" alt="image" id="about-us-image">
+                </div>
+            </div>
+            <div class="services">
+                <h2>OUR SERVICES</h2>
+                <div class="service_content">
+                    <div class="service_card">
+                        <img src="./images/service-card1.jpg" alt="" id="card1">
+                        <button>USER EXPERENCE</button>
+                    </div>
+                    <div class="service_card">
+                        <img src="./images/service-card2.jpg" alt="" id="card2">
+                        <button>CREATIVE DESIGN</button>
+                    </div>
+                    <div class="service_card">
+                        <img src="" alt="" id="card3">
+                        <button>RETINA READY</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
 
-    <p>
-        git status: it show the status of files, the changes and everything,
-        git clone link: it clones a github project into you system,
-        
-        git add filname: it adds a file to the stage
-        git commit -m "message": it commits with a message
 
-        git push origin main: it will push all files into this git repository
-        
-    </p>
+    <script src="script.js"></script>
 </body>
+
 </html>
