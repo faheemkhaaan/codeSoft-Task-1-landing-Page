@@ -12,7 +12,7 @@
 }
 
 body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 header {
@@ -526,6 +526,8 @@ header .logo h3 {
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        height: max-content;
+        overflow-x: hidden;
     }
     .about-us-content {
         width: 100%;
