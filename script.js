@@ -12,7 +12,7 @@ hamburger.onclick = function(){
         navBar.style.opacity = '1'
     },0)
 }
-
+ 
 closeNavbarBtn.onclick = function(){
     
     navBar.style.opacity = '0'

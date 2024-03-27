@@ -10,7 +10,8 @@
 :root {
     font-family: sans-serif;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
 
@@ -63,6 +64,8 @@ header>ul li a:hover::after {
     border-radius: 2px;
 }
 
+
+
 header .logo h3 {
     width: 170px;
     display: inline-flex;
@@ -114,6 +117,7 @@ header .logo h3 {
     display: block;
     z-index: 4;
 }
+
 /* _________________________________MAIN___________________________________ */
 
 /* ******************** hero section ***************************************** */
@@ -138,19 +142,22 @@ header .logo h3 {
     color: #29292b;
     position: relative;
 }
-.hero > div::after{
+
+.hero>div::after {
     content: '';
     height: 100%;
     width: 3px;
-    background-image: linear-gradient(180deg,#fab35e,#d943b3);
+    background-image: linear-gradient(180deg, #fab35e, #d943b3);
     position: absolute;
     left: 0;
 }
-.hero > div h1{
+
+.hero>div h1 {
     text-shadow: 200px 0px #a6a6a8;
     font-size: 2.5rem;
     letter-spacing: .3rem;
 }
+
 .hero>div h2 {
     text-shadow: 0 -10px #a6a6a8;
 }
@@ -164,15 +171,18 @@ header .logo h3 {
     cursor: pointer;
     font-size: 1rem;
     font-weight: 600;
-    color: #29292b;;
+    color: #29292b;
+    ;
     background-color: transparent;
 }
-.hero_btn button:nth-child(1){
-    background-image: linear-gradient(90deg,#fab35e,#d943b3);
+
+.hero_btn button:nth-child(1) {
+    background-image: linear-gradient(90deg, #fab35e, #d943b3);
     position: relative;
     z-index: 3;
 }
-.hero_btn button:nth-child(1)::after{
+
+.hero_btn button:nth-child(1)::after {
     content: 'READ MORE';
     padding: .6rem .5rem;
     border-radius: 100vw;
@@ -181,17 +191,20 @@ header .logo h3 {
     cursor: pointer;
     font-size: 1rem;
     font-weight: 600;
-    color: #29292b;;
-    background-image: linear-gradient(90deg,#fab35e,#d943b3);
+    color: #29292b;
+    ;
+    background-image: linear-gradient(90deg, #fab35e, #d943b3);
     position: absolute;
     left: -76px;
     top: 0;
     z-index: -1;
     opacity: .4;
 }
-.hero_btn button:nth-child(2){
+
+.hero_btn button:nth-child(2) {
     border: 2px solid #878785;
 }
+
 .hero>h2 {
     text-shadow: 0px -10px rgba(0, 0, 0, .4);
 }
@@ -199,100 +212,112 @@ header .logo h3 {
 /* **************************useFull_links************************************* */
 
 
-.useFull_links{
+.useFull_links {
     height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: linear-gradient(90deg,#fab35e,#a943b3);
+    background-image: linear-gradient(90deg, #fab35e, #a943b3);
     padding: 0 5rem;
     gap: 10px;
     color: white;
 }
-.useFull_links div{
+
+.useFull_links div {
     text-align: left;
     flex: 1;
 }
-.useFull_links div h2{
+
+.useFull_links div h2 {
     display: inline-flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-.useFull_links div h2 i{
+
+.useFull_links div h2 i {
     padding: .6rem;
     border: 2px solid white;
     border-radius: 100vw;
     font-size: .9rem;
-    margin:.61rem 0;
+    margin: .61rem 0;
 
 }
-.useFull_links div p{
-}
+
+.useFull_links div p {}
 
 
 
 /* *************************************about_us******************************** */
 
-.content{
-    padding: 0 11rem ;
+.content {
+    padding: 0 11rem;
 }
-.about_us{
+
+.about_us {
     height: 70vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 15px;
 }
-.aboutUs-image{
+
+.aboutUs-image {
     width: 50%;
     position: relative;
 }
-#about-us-image{
+
+#about-us-image {
     border-radius: 5px;
     width: 100%;
     height: 100%;
     object-fit: cover;
     position: relative;
 }
-.aboutUs-image::after{
+
+.aboutUs-image::after {
     content: '';
-    width:  300px;
+    width: 300px;
     height: 80px;
     border: 3px solid;
-    border-image: linear-gradient(90deg,#fab35e,#d943b3);
+    border-image: linear-gradient(90deg, #fab35e, #d943b3);
     border-image-slice: 1;
     position: absolute;
     bottom: 1px;
     left: 50%;
-    transform: translate(-30%,0%);
+    transform: translate(-30%, 0%);
     z-index: -1;
 
 }
-.about-us-content{
+
+.about-us-content {
     width: 35vw;
     /* height: 100%; */
 }
 
-.about-us-content h2{
+.about-us-content h2 {
     font-size: 2rem;
     margin: .5rem 0;
     position: relative;
 }
-.about-us-content h2::after{
+
+.about-us-content h2::after {
     content: '';
     width: 20%;
     height: 2px;
     position: absolute;
     bottom: 0;
     left: 0;
-    background-image:linear-gradient(90deg,#fab35e,#d943b3); ;
+    background-image: linear-gradient(90deg, #fab35e, #d943b3);
+    ;
 }
+
 .about-us-content p {
     margin: 1rem 0;
 }
-.about-us-content > button{
+
+.about-us-content>button {
     padding: .6rem .5rem;
     border-radius: 100vw;
     outline: none;
@@ -301,7 +326,7 @@ header .logo h3 {
     font-size: 1rem;
     font-weight: 600;
     color: #29292b;
-    background-image: linear-gradient(90deg,#fab35e,#d943b3);
+    background-image: linear-gradient(90deg, #fab35e, #d943b3);
 }
 
 
@@ -314,12 +339,13 @@ header .logo h3 {
 
 /* *******************************Services ******************************************** */
 
-.services{
+.services {
     height: 40vh;
     /* align-items: center;
     justify-content: center; */
 }
-.service_content{
+
+.service_content {
     /* width: 50vw; */
     display: flex;
     justify-content: space-between;
@@ -327,32 +353,38 @@ header .logo h3 {
     gap: 20px;
     flex-wrap: wrap;
 }
-.services h2{
+
+.services h2 {
     font-size: 2rem;
     margin: .5rem 0;
     position: relative;
 }
-.services h2::after{
+
+.services h2::after {
     content: '';
     width: 20%;
     height: 3px;
     position: absolute;
     bottom: -5px;
     left: 0;
-    background-image:linear-gradient(90deg,#fab35e,#d943b3); ;
+    background-image: linear-gradient(90deg, #fab35e, #d943b3);
+    ;
 
 }
-.service_card{
+
+.service_card {
     width: 300px;
     height: 300px;
     position: relative;
 }
-.service_card img{
+
+.service_card img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
-.service_card button{
+
+.service_card button {
     position: absolute;
     bottom: 40px;
     right: 0px;
@@ -363,6 +395,7 @@ header .logo h3 {
     cursor: pointer;
     font-weight: 600;
 }
+
 @media (max-width: 900px) {
     header>ul {
         display: none;
@@ -395,16 +428,19 @@ header .logo h3 {
     .hamburger {
         display: block;
     }
-    .hero > div h1 {
+
+    .hero>div h1 {
         text-shadow: 200px 0px #a6a6a8;
         font-size: 2rem;
         letter-spacing: .3rem;
         width: 400px;
     }
+
     .useFull_links {
         padding: 0 10px;
 
     }
+
     .useFull_links div h2 {
         display: inline-flex;
         justify-content: space-between;
@@ -412,10 +448,97 @@ header .logo h3 {
         gap: 20px;
         font-size: 1.2rem;
     }
+
     .content {
         padding: 1rem;
     }
+
     .about-us-content {
         width: 55vw;
+    }
+}
+
+
+@media (max-width: 480px) {
+    header {
+        flex-wrap: wrap;
+    }
+    header .logo{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    header>ul {
+        display: none;
+        position: fixed;
+        right: 0px;
+    }
+
+    .hero{
+        text-align: center;
+        gap: 10px;
+    }
+
+    .hero>div {
+        padding: 0rem;
+        text-align: center;
+    }
+    .hero>div h1 {
+        text-shadow: 200px 0px #a6a6a8;
+        font-size: 2rem;
+        /* letter-spacing: 1rem; */
+        width: 100%;
+        text-align: center;
+    }
+    .hero > div p{
+
+    
+    }
+    .hero .hero_btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero .hero_btn button{
+         width: max-content;
+    }
+    .useFull_links {
+        height: max-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: linear-gradient(90deg, #fab35e, #a943b3);
+        padding: 1rem 2rem;
+        gap: 10px;
+        color: white;
+        flex-wrap: wrap;
+    }
+    .useFull_links div {
+        text-align: left;
+        flex: 1;
+        flex-basis: 100%;
+    }
+    .content {
+       padding: .5rem;
+    }
+    .about_us {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .about-us-content {
+        width: 100%;
+    }
+    .aboutUs-image {
+        width: 67%;
+        position: relative;
+    }
+    .service_content {
+        /* width: 50vw; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
 }
